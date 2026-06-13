@@ -1,6 +1,6 @@
 // src/app/layout.tsx
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css"; // Fixed: Points to src/app/globals.css directly
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+  devIndicators: {
+    // This tells Next to hide the development badge entirely
+    buildActivity: false
+  }
 };
 
 export default nextConfig;

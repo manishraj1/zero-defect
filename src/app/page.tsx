@@ -476,7 +476,7 @@ export default function Home() {
             
             <div className="flex items-center justify-center w-full">
               <a 
-                href="https://github.com" 
+                href="https://github.com/manishraj1/HILSA.git" 
                 target="_blank" 
                 rel="noreferrer"
                 className="px-12 py-4.5 bg-black/15 text-[#0B0B0B] font-mono font-bold text-sm rounded-full backdrop-blur-md border border-black/15 hover:bg-black/25 hover:border-black/20 transition-all duration-300 shadow-[0_4px_24px_rgba(0,0,0,0.02)] no-underline text-center group tracking-wider"
@@ -690,7 +690,7 @@ export default function Home() {
                 Designed &amp; Developed Independently by <span className="text-[#0B0B0B] font-bold">Manish Raj Vangari</span>
               </div>
               <div className="flex items-center space-x-6">
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-[#0B0B0B] transition-colors">GitHub</a>
+                <a href="https://github.com/manishraj1/HILSA.git" target="_blank" rel="noreferrer" className="hover:text-[#0B0B0B] transition-colors">GitHub</a>
                 <a href="https://zero-defect.vercel.app/" className="hover:text-[#0B0B0B] transition-colors">Live Portal</a>
                 <a href="#workspace" className="hover:text-[#0B0B0B] transition-colors">Contact Workspace</a>
               </div>
@@ -699,13 +699,6 @@ export default function Home() {
         )}
 
       </div>
-
-      {/* CORE MARGINAL HUD SYMBOL ACCENT */}
-      <footer className="fixed bottom-8 left-12 z-50 pointer-events-auto">
-        <div className="w-8 h-8 rounded-full bg-[#0B0B0B] text-white flex items-center justify-center font-mono font-bold text-xs shadow-sm">
-          N
-        </div>
-      </footer>
 
     </main>
   );
